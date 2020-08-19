@@ -26,14 +26,17 @@ public class Programmer {
     @Getter
     @Setter
     private Long id;
+
     @Column
     @Getter
     @Setter
     private String name;
+
     @CassandraType(type = CassandraType.Name.LIST, typeArguments = {CassandraType.Name.UDT}, userTypeName = "languages")
     @Getter
     @Setter
     private List<Language> languageList;
+
     @CassandraType(type = CassandraType.Name.LIST, typeArguments = {CassandraType.Name.UDT}, userTypeName = "skills")
     @Getter
     @Setter
