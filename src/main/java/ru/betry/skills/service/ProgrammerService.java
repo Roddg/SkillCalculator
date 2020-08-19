@@ -3,7 +3,6 @@ package ru.betry.skills.service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import ru.betry.skills.entity.Programmer;
-import ru.betry.skills.entity.Question;
 import ru.betry.skills.repository.ProgrammerRepository;
 
 import java.util.*;

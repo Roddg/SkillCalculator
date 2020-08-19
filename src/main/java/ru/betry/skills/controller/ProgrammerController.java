@@ -4,7 +4,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import ru.betry.skills.entity.Programmer;
-import ru.betry.skills.entity.Question;
 import ru.betry.skills.service.ProgrammerService;
 
 import java.util.*;
